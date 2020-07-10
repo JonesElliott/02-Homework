@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link for style.css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Link for Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
     <header class="row">
       <nav class="col-md-12 navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="./index.html"><h1>Elliott Jones</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -19,7 +36,9 @@
               <a class="nav-link" href="./index.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#portfolio"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact</a>
@@ -28,14 +47,16 @@
         </div>
       </nav>
     </header>
+    <br>
+    <!-- Portfolio Section -->
     <section class="container">
-        <article id="portfolio">
-            <h2>Portfolio</h2>
-            <img src="" alt="">
-            <p>
-                
-            </p>
-        </article>
+      <article id="portfolio">
+        <h2>Portfolio</h2>
+        <img src="" alt="" />
+        <p>Super Asteroids is a demo of an Asteroids style game that I created using Game Maker Studio 2 utilizing their programming language, Game Maker Language.</p>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mm7UtB_6FuE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>This project took me about a month in my spare time to complete from scratch. Super Asteroids represents a milestone in my programming hobby and has given me a lot of confidence in what I have learned and makes me excited for future endeavors.</p>
+      </article>
     </section>
-</body>
+  </body>
 </html>
