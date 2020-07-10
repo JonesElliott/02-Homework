@@ -1,0 +1,17 @@
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.quote {
+    font-style: italic;
+}
+
+@media screen and (max-width: 990px) {
+    .aboutText {
+        text-align: center;
+    }
+}

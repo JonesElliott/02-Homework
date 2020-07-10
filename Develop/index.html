@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <title>Elliott Jones</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation bar-->
     <header class="row">
         <nav class="col-md-12 navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="container navbar-brand" href="./index.html"><h1>Elliott Jones</h1></a>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="./index.html"><h1>Elliott Jones</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#about">About Me<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">Portolio</a>
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./contact.html">Contact</a>
@@ -27,14 +35,32 @@
             </div>
           </nav>
     </header>
+    <br />
+    <!-- About Me Section-->
     <section class="container">
-        <article id="about">
-            <h2>About Me</h2>
-            <img src="" alt="">
-            <p>
-                I am a student enrolled in the UCSD extension bootcamp for coding and web development. My journey started as a self taught programmer dabbling in game development but always hit road blocks in my learning. Teaching one's self anything is tough, but programming especially so. I never let those road blocks stay closed for long though. I set a goal for myself to complete one project regardless if I was completely satisfied with the end result or not. Completing that project helped me gain more confidence and opened up a new path for me in my programming ventures. With my new found confidence I decided it was time to enroll myself in school to turn my hobby into a career.
-            </p>
-        </article>
+      <article id="about">
+        <h2>About Me</h2>
+        <img
+          src="./assets/ElliottJones.jpg"
+          alt="Elliott Jones smiling with snow on car"
+          height="256"
+          width="256"
+          class="img-thumbnail rounded float-left"
+        />
+        <br />
+        <p class="aboutText">
+          I am a student enrolled in the UCSD extension bootcamp for coding and
+          web development. My journey started as a self taught programmer
+          dabbling in game development but always hit road blocks in my
+          learning. Teaching one's self anything is tough, but programming
+          especially so. I never let those road blocks stay closed for long
+          though. I set a goal for myself to complete one project regardless if
+          I was completely satisfied with the end result or not. Completing that
+          project helped me gain more confidence and opened up a new path for me
+          in my programming ventures. With my new found confidence I decided it
+          was time to enroll myself in school to turn my hobby into a career.
+        </p>
+      </article>
     </section>
-</body>
+  </body>
 </html>
