@@ -52,10 +52,12 @@
           method="POST"
           enctype="form-data"
         >
+          <!-- Input for user's name -->
           <div class="form-group">
             <label for="name">Name</label>
             <input for="nameinput" class="form-control" />
           </div>
+          <!-- Input for user's email -->
           <div class="form-group">
             <label for="emailinput">Email address</label>
             <input
@@ -63,7 +65,12 @@
               class="form-control"
               placeholder="name@example.com"
             />
+            <!-- JavaScrip for email validation -->
+            <script language="”JavaScript”">
+              var frmvalidator = new Validator(“contactform”); frmvalidator.addValidation(“name”,”req”,”Please provide your name”); frmvalidator.addValidation(“email”,”req”,”Please provide your email”); frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”);
+            </script>
           </div>
+          <!-- Input for user's message -->
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Message</label>
             <textarea class="form-control" rows="8"></textarea>
@@ -71,9 +78,6 @@
           <button type="submit" class="btn btn-info">Submit</button>
         </form>
       </article>
-      <script language="”JavaScript”">
-        var frmvalidator = new Validator(“contactform”); frmvalidator.addValidation(“name”,”req”,”Please provide your name”); frmvalidator.addValidation(“email”,”req”,”Please provide your email”); frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”);
-      </script>
     </section>
     <!-- Footer Section -->
     <div class="container-fluid">
