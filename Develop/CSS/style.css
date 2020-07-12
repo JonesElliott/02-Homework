@@ -1,20 +1,14 @@
 
 body {
-    background-color: whitesmoke;
+    background-color: wheat;
 }
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+section h2 {
     text-align: center;
 }
-.quote {
-    font-style: italic;
-}
 
-@media screen and (max-width: 990px) {
-    .aboutText {
+@media screen and (max-width: 768px) {
+    #all-h2 {
         text-align: center;
     }
 }
