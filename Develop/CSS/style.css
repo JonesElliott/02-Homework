@@ -3,12 +3,6 @@ body {
     background-color: wheat;
 }
 
-section h2 {
-    text-align: center;
-}
 
 @media screen and (max-width: 768px) {
-    #all-h2 {
-        text-align: center;
-    }
 }

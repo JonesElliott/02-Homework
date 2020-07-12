@@ -46,7 +46,12 @@
       <h2 class="mt-3">Contact</h2>
       <article id="contact" class="mt-3">
         <br />
-        <form class="shadow-sm p-3 mb-5 bg-white rounded">
+        <form
+          class="shadow-sm p-3 mb-5 bg-white rounded"
+          action="mailto:jones.elliott@outlook.com"
+          method="POST"
+          enctype="form-data"
+        >
           <div class="form-group">
             <label for="name">Name</label>
             <input for="nameinput" class="form-control" />
@@ -66,6 +71,9 @@
           <button type="submit" class="btn btn-info">Submit</button>
         </form>
       </article>
+      <script language="”JavaScript”">
+        var frmvalidator = new Validator(“contactform”); frmvalidator.addValidation(“name”,”req”,”Please provide your name”); frmvalidator.addValidation(“email”,”req”,”Please provide your email”); frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”);
+      </script>
     </section>
     <!-- Footer Section -->
     <div class="container-fluid">
