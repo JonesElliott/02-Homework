@@ -16,21 +16,14 @@
   </head>
   <body>
     <!-- Navigation bar-->
-    <header class="row">
-      <nav class="col-md-12 navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html"><h1>Elliott Jones</h1></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header>
+      <nav
+        class="navbar navbar-expand flex-column flex-md-row bd-navbar navbar-dark bg-dark"
+      >
+        <a class="navbar-brand ml-5 mr-5" href="./index.html"
+          ><h1>Elliott Jones</h1></a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="ml-3">
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item active">
               <a class="nav-link" href="#about"
@@ -53,15 +46,15 @@
       <article id="about">
         <h2>About Me</h2>
         <br />
-        <div class="">
+        <div>
           <img
             src="./assets/ElliottJones.jpg"
             alt="Elliott Jones smiling with snow on car"
             height="256"
             width="256"
-            class="float-left img-fluid mr-3"
+            class="float-left img-fluid max-width: 100%; height: auto; mr-3"
           />
-          <p id="aboutText" class="shadow-sm p-3 mb-5 bg-white rounded">
+          <p id="aboutText" class="shadow-sm p-3 m-3 bg-white rounded">
             I am a student enrolled in the UCSD extension bootcamp for coding
             and web development. My journey started as a self taught programmer
             dabbling in game development but always hit road blocks in my
@@ -77,11 +70,19 @@
         </div>
       </article>
     </section>
-    <footer class="row col-md-6">
-      <p>
-        A great pleasure in life is doing what people say you cannot do. ~Walter
-        Bagehot
-      </p>
-    </footer>
+    <!-- Footer Section -->
+    <div class="container-fluid">
+      <footer class="fixed-bottom bg-dark p-0">
+        <div class="text-center text-muted text-white m-3">
+          <p>
+            <em
+              >"A great pleasure in life is doing what people say you cannot
+              do."</em
+            >
+            ~Walter Bagehot
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

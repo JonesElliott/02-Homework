@@ -16,22 +16,15 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <header class="row">
-      <nav class="col-md-12 navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html"><h1>Elliott Jones</h1></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header>
+      <nav
+        class="navbar navbar-expand flex-column flex-md-row bd-navbar navbar-dark bg-dark"
+      >
+        <a class="navbar-brand ml-5 mr-5" href="./index.html"
+          ><h1>Elliott Jones</h1></a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <div class="ml-3">
+          <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
               <a class="nav-link" href="./index.html">About Me</a>
             </li>
@@ -70,9 +63,23 @@
             <label for="exampleFormControlTextarea1">Message</label>
             <textarea class="form-control" rows="8"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-info">Submit</button>
         </form>
       </article>
     </section>
+    <!-- Footer Section -->
+    <div class="container-fluid">
+      <footer class="fixed-bottom bg-dark p-0">
+        <div class="text-center text-muted text-white m-3">
+          <p>
+            <em
+              >"A great pleasure in life is doing what people say you cannot
+              do."</em
+            >
+            ~Walter Bagehot
+          </p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
