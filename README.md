@@ -1,5 +1,5 @@
-# 02-Homework
-Homework 02 - Responsive Portfolio
+# My Portfolio
+Responsive Portfolio
 
 ## Description
 This is a portfolio page to let visitors know who I am and showcase my skills and projects. This site includes 3 pages, About Me, Portfolio, and a Contact page. These pages were built using HTML with semantic elements, Bootstrap classes, and very little JavaScript at this time. All areas of the page are modular to fit scaling window sizes.
