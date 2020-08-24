@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Link for style.css -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./CSS/style.css">
     <!-- Link for Bootstrap -->
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
     />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body id="bootstrap-overrides">
     <!-- Navigation Bar -->
     <header>
       <nav
@@ -48,22 +48,22 @@
       <article id="portfolio" class="row mt-4">
         <div class="container shadow-sm p-3 mb-5 bg-white rounded">
           <!-- Beginning of Portfolio Entries-->
-          <div class="row">
+          <div class="row bg">
 
             <!-- Weather Dashboard -->
             <div class="card m-2" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="col-md-7">
-                  <a href="https://joneselliott.github.io/Weather-Dashboard/">
+                  <a href="https://joneselliott.github.io/Weather-Dashboard/" target="_blank">
                     <img src="./assets/weather-dashboard-3.PNG" class="card-img-top" alt="weather dashboard preview">
                   </a>
                 </div>
                 <div class="col-md-5">
-                  <div class="card-body">
+                  <div class="card-body portfolio-card">
                     <h5 class="card-title">Weather Dashboard</h5>
-                    <p class="card-text">A simple weather dashboard that utilizes data from the <a href="https://openweathermap.org/">OpenWeathermap</a> API.</p>
-                    <a href="https://joneselliott.github.io/Weather-Dashboard/" class="btn btn-primary mb-2">Check the Weather</a>
-                    <a href="https://github.com/JonesElliott/Weather-Dashboard" class="btn btn-primary">Under the Hood</a>
+                    <p class="card-text">A simple weather dashboard that utilizes data from the <a href="https://openweathermap.org/" target="_blank">OpenWeathermap</a> API.</p>
+                    <a href="https://joneselliott.github.io/Weather-Dashboard/" target="_blank" class="btn btn-primary mb-2">Check the Weather</a>
+                    <a href="https://github.com/JonesElliott/Weather-Dashboard" target="_blank" class="btn btn-primary">Under the Hood</a>
                   </div>
                 </div>
               </div>
@@ -73,16 +73,16 @@
             <div class="card m-2" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="col-md-7">
-                  <a href="https://joneselliott.github.io/Weather-Dashboard/">
-                    <img src="./assets/finance-manager.PNG" class="card-img-top mt-4 ml-1" alt="weather dashboard preview">
+                  <a href="https://joneselliott.github.io/Budget-Saver/" target="_blank">
+                    <img src="./assets/finance-manager.PNG" class="card-img-top mt-4 ml-1 p-2" alt="finance manager preview">
                   </a>
                 </div>
                 <div class="col-md-5">
-                  <div class="card-body">
+                  <div class="card-body portfolio-card">
                     <h5 class="card-title">Finance Manager</h5>
-                    <p class="card-text">A finance management application to assist with keeping track of income and expenses</p>
-                    <a href="https://joneselliott.github.io/Budget-Saver/" class="btn btn-primary mb-2">Manage Finances</a>
-                    <a href="https://github.com/JonesElliott/Budget-Saver" class="btn btn-primary">Under the Hood</a>
+                    <p class="card-text">A finance management application to assist with keeping track of income and expenses.</p>
+                    <a href="https://joneselliott.github.io/Budget-Saver/" target="_blank" class="btn btn-primary mb-2">Manage Finances</a>
+                    <a href="https://github.com/JonesElliott/Budget-Saver" target="_blank" class="btn btn-primary">Under the Hood</a>
                   </div>
                 </div>
               </div>
@@ -92,16 +92,16 @@
             <div class="card m-2" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="col-md-7">
-                  <a href="https://joneselliott.github.io/Day-Planner/">
+                  <a href="https://joneselliott.github.io/Day-Planner/" target="_blank">
                     <img src="./assets/day-planner.PNG" class="card-img-top mt-4 ml-1" alt="day planner preview">
                   </a>
                 </div>
                 <div class="col-md-5">
-                  <div class="card-body">
+                  <div class="card-body portfolio-card">
                     <h5 class="card-title">Day Planner</h5>
-                    <p class="card-text">A planner that allows events to be added, edited, & removed for each hour of the day</p>
-                    <a href="https://joneselliott.github.io//" class="btn btn-primary mb-2">Plan Your Day</a>
-                    <a href="https://github.com/JonesElliott/Day-Planner" class="btn btn-primary">Under the Hood</a>
+                    <p class="card-text">A planner that allows events to be added, edited, & removed for each hour of the day.</p>
+                    <a href="https://joneselliott.github.io/Day-Planner/" target="_blank" class="btn btn-primary mb-2">Plan Your Day</a>
+                    <a href="https://github.com/JonesElliott/Day-Planner" target="_blank" class="btn btn-primary">Under the Hood</a>
                   </div>
                 </div>
               </div>
@@ -111,16 +111,16 @@
             <div class="card m-2" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="col-md-7">
-                  <a href="https://joneselliott.github.io/Password-Generator/">
-                    <img src="./assets/PWGen.PNG" class="card-img-top mt-4 ml-1" alt="day planner preview">
+                  <a href="https://joneselliott.github.io/Password-Generator/" target="_blank">
+                    <img src="./assets/PWGen.PNG" class="card-img-top mt-4 ml-1" alt="password generator preview">
                   </a>
                 </div>
                 <div class="col-md-5">
-                  <div class="card-body">
+                  <div class="card-body portfolio-card">
                     <h5 class="card-title">Password Generator</h5>
-                    <p class="card-text">Generate a password based on user set parameters</p>
-                    <a href="https://joneselliott.github.io/Password-Generator/" class="btn btn-primary mb-2">Generate Password</a>
-                    <a href="https://github.com/JonesElliott/Password-Generator" class="btn btn-primary">Under the Hood</a>
+                    <p class="card-text">Generate unlimited unique passwords based on multiple user set parameters.</p>
+                    <a href="https://joneselliott.github.io/Password-Generator/" target="_blank" class="btn btn-primary mb-2">Generate Password</a>
+                    <a href="https://github.com/JonesElliott/Password-Generator" target="_blank" class="btn btn-primary">Under the Hood</a>
                   </div>
                 </div>
               </div>
@@ -130,16 +130,16 @@
             <div class="card m-2" style="max-width: 540px;">
               <div class="row no-gutters">
                 <div class="col-md-7">
-                  <a href="https://joneselliott.github.io/Password-Generator/">
-                    <img src="./assets/coding-quiz.PNG" class="card-img-top mt-4 ml-1" alt="day planner preview">
+                  <a href="https://joneselliott.github.io/Coding-Quiz/" target="_blank">
+                    <img src="./assets/coding-quiz.PNG" class="card-img-top mt-4 ml-1" alt="coding quiz preview">
                   </a>
                 </div>
                 <div class="col-md-5">
-                  <div class="card-body">
+                  <div class="card-body portfolio-card">
                     <h5 class="card-title">Coding Quiz</h5>
-                    <p class="card-text">A quiz built with minimal HTML dynamically generating the site through JavaScript</p>
-                    <a href="https://joneselliott.github.io/Coding-Quiz/" class="btn btn-primary mb-2">Take the Quiz</a>
-                    <a href="https://github.com/JonesElliott/Coding-Quiz" class="btn btn-primary">Under the Hood</a>
+                    <p class="card-text">A quiz built with minimal HTML dynamically generating the site through JavaScript.</p>
+                    <a href="https://joneselliott.github.io/Coding-Quiz/" target="_blank" class="btn btn-primary mb-2">Take the Quiz</a>
+                    <a href="https://github.com/JonesElliott/Coding-Quiz" target="_blank" class="btn btn-primary">Under the Hood</a>
                   </div>
                 </div>
               </div>

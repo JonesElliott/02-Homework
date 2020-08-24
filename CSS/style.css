@@ -2,5 +2,12 @@ body {
   background-color: wheat;
 }
 
+.portfolio-card {
+  background-color: rgba(184, 208, 216, 0.438);
+}
+
+
+
+
 @media screen and (max-width: 768px) {
 }
