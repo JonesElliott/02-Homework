@@ -6,8 +6,13 @@ body {
   background-color: rgba(184, 208, 216, 0.438);
 }
 
+#div-last-name {
+  margin-left: 50px;
+}
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
+  #div-last-name {
+    margin: 25px 0px 25px 0px;
+  }
 }
